@@ -1,0 +1,225 @@
+html{
+    background-color: black;
+}
+.banner-image{
+    width: 100%;
+    padding:0px;
+    grid-area: 1/1;
+}
+.line{
+    width: 100%;
+    grid-area:1/1;
+    position: relative;
+    top: 97%;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.title-container{
+    grid-area: 1/1;
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    top: 10%;
+    left: 15%;
+    
+}
+.margins{
+    margin-left:20%;
+    margin-right: 20%;
+
+}
+.nav-container {
+    padding: 10px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 2%;
+}
+.flower{
+    width: 3rem;
+}
+h1{
+    color:white;
+    font-size: 6rem;
+    font-family: 'Borel', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    margin:0px;
+}
+h2{
+    color:white;
+    font-size: 2rem;
+    font-family: 'Borel', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+h3{
+    color:white;
+    font-size: 1rem;
+    font-family: 'Borel', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+p{
+    color:white;
+    font-family: 'Borel', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+li{
+    color:white;
+    font-family: 'Borel', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-container > li{
+    list-style: none; 
+}
+li > a:link{
+    font-family: 'Borel', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color:white;
+    padding:20px;
+    scroll-padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+a:hover{
+    color: pink;
+}
+a:visited{
+    color:white;
+}
+.hello{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-left:10%;
+    margin-top: 5%;
+}
+.hello-container{
+    grid-area: 1/1;
+    display: grid;
+    width: 70%;
+
+    grid-template-columns: 10% auto 25%;
+    grid-template-rows:  1fr auto auto auto 1fr;
+    gap:0px; 
+}
+.hello-container > p{
+    grid-area: 4/2;
+    margin:0px;
+}
+.hello-container > h2{
+    grid-area: 3/2;
+    margin:0px;
+}
+.pink{
+    grid-area: 1/1;
+    width: 70%;
+}
+
+.sarah{
+    width: 50%;
+    grid-area: 2/2;
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 0px;;
+    justify-content: center;
+    align-items: center;
+}
+.about-me{
+    display: grid;
+
+}
+.about-bg{
+    width: 100%;
+    grid-area: 1/1;
+}
+.about-me-container{
+    grid-area: 1/1;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+.connect{
+    margin-top: 10%;
+    display: flex;
+
+}
+.connect-li{
+    list-style: none; 
+    padding: 0px;
+    margin: 0px;
+}
+a:link{
+    text-decoration: none;
+    color:white;
+    scroll-padding-right: 0px;
+    font-family: 'Borel', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+.diamonds{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom{
+    width: 50%;   
+}
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project{
+    margin: 10px;
+    width: 400px;
+}
+a > img{
+    width: 400px; 
+    height: 337px; 
+    object-fit: cover;
+}
+.images{
+    display: flex;
+}
+.images > img{
+    max-width: 500px;
+    object-fit: cover;
+    float:left;
+}
+.description{
+    text-align: left;
+    float:inline-end;
+}
